@@ -14,6 +14,8 @@
 		C58EFFA31B3495B1006565E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58EFFA21B3495B1006565E9 /* Images.xcassets */; };
 		C58EFFA61B3495B1006565E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C58EFFA41B3495B1006565E9 /* LaunchScreen.xib */; };
 		C58EFFB21B3495B1006565E9 /* ABManagerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C58EFFB11B3495B1006565E9 /* ABManagerExampleTests.m */; };
+		C58EFFBD1B3495D2006565E9 /* ABManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C58EFFBC1B3495D2006565E9 /* ABManager.m */; };
+		C58EFFBE1B3495D2006565E9 /* ABManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C58EFFBC1B3495D2006565E9 /* ABManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		C58EFFAB1B3495B1006565E9 /* ABManagerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABManagerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58EFFB01B3495B1006565E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C58EFFB11B3495B1006565E9 /* ABManagerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABManagerExampleTests.m; sourceTree = "<group>"; };
+		C58EFFBB1B3495D2006565E9 /* ABManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABManager.h; sourceTree = "<group>"; };
+		C58EFFBC1B3495D2006565E9 /* ABManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				C58EFF9A1B3495B1006565E9 /* AppDelegate.m */,
 				C58EFF9C1B3495B1006565E9 /* ViewController.h */,
 				C58EFF9D1B3495B1006565E9 /* ViewController.m */,
+				C58EFFBB1B3495D2006565E9 /* ABManager.h */,
+				C58EFFBC1B3495D2006565E9 /* ABManager.m */,
 				C58EFF9F1B3495B1006565E9 /* Main.storyboard */,
 				C58EFFA21B3495B1006565E9 /* Images.xcassets */,
 				C58EFFA41B3495B1006565E9 /* LaunchScreen.xib */,
@@ -219,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C58EFFBD1B3495D2006565E9 /* ABManager.m in Sources */,
 				C58EFF9E1B3495B1006565E9 /* ViewController.m in Sources */,
 				C58EFF9B1B3495B1006565E9 /* AppDelegate.m in Sources */,
 				C58EFF981B3495B1006565E9 /* main.m in Sources */,
@@ -229,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C58EFFBE1B3495D2006565E9 /* ABManager.m in Sources */,
 				C58EFFB21B3495B1006565E9 /* ABManagerExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
